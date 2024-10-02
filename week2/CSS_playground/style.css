@@ -1,0 +1,13 @@
+/*
+Order of precedence:
+1. Inline Styles
+2. Internal Styles
+3. External Styles
+
+Caviat !importnant will overide any precedence
+*/
+
+p {
+    color: purple !important;
+   /* background-color: orange; */
+}
