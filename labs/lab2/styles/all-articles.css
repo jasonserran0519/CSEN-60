@@ -1,0 +1,15 @@
+header {
+  /* think about which properties you'd want to use to make the header */
+  /* border-bottom color should be accent-background */
+}
+
+input[type="search"] {
+  border-radius: ;
+  background-color: ;
+  border: ;
+  padding: ;
+}
+
+article h1 a {
+  /*color should be accent-background */
+}
