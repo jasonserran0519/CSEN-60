@@ -1,13 +1,18 @@
 header {
   /* think about which properties you'd want to use to make the header */
   /* border-bottom color should be accent-background */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  background-color: black;
+  color: black; 
 }
 
 input[type="search"] {
-  border-radius: ;
-  background-color: ;
-  border: ;
-  padding: ;
+  border-radius: 4px;
+  background-color: #eee ;
+  border: 4px;
+  padding: 4px;
 }
 
 article h1 a {

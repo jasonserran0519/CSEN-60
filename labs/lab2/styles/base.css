@@ -20,7 +20,9 @@ body {
 */
 
 ul.tags {
-  display: ;
+  display: flex;
+  flex-wrap: wrap;
+  
   list-style: ;
 
   margin-top: ;
