@@ -21,27 +21,27 @@ body {
 
 ul.tags {
   display: flex;
-  flex-wrap: wrap;
-  
-  list-style: ;
-
-  margin-top: ;
-  margin-bottom: ;
-
-  padding-left: ;
+  list-style: none;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  gap: 16px;
+  padding-left: 0;
 }
 
 ul.tags li {
-  border-radius: ;
-  background-color: ;
+  border-radius: 6px;
+  background-color: var(--gray);
   /* background color should be --gray */
-  padding: ;
-  margin-left: ;
-  margin-right: ;
+  padding: .3rem .5rem;
+  margin-left: 0px;
+  margin-right: -5px;
 }
 
 ul.tags a {
   /*color should be darkest-gray*/
+  color: var(--darkest-gray);
+  list-style: none;
+  text-decoration: none;
 }
 
 /**
@@ -49,12 +49,27 @@ ul.tags a {
 */
 nav {
   /* background color should be accent-background */
+  background-color: var(--accent-background);
+  display: flex;
+  justify-content: flex-end;
 }
 
 nav ul {
   /* something should go here */
+  display: flex;
+  list-style: none;
+  text-decoration: none;
 }
 
 nav ul a {
   /* color should be accent-background-text */
+  color: var(--accent-background-text);
+}
+
+nav ul li{
+  margin-right: 1rem;
+}
+
+a{
+  text-decoration: none;
 }
