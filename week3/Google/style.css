@@ -43,15 +43,17 @@ ways to create a layout
 
 main{ 
     text-align: center;
+
 }
 
 
 
 body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 100vh; 
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* height: 100vh;  */
     background-color: gray;
 }
