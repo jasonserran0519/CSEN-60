@@ -34,5 +34,10 @@ button{
     align-items: center;
 }
 
+main{
+    display: flex;
+    align-items: flex-start;
+}
+
 
 
