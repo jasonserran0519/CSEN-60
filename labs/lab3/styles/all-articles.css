@@ -1,0 +1,43 @@
+header {
+  /* think about which properties you'd want to use to make the header */
+  /* border-bottom color should be accent-background */
+  display: flex;
+  justify-content: space-between;
+  border-bottom:  2px solid var(--accent-background);
+  padding: 3rem 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  
+
+}
+
+input[type="search"] {
+  border-radius:  8px;
+  background-color: #ffffff;
+  border: 2px solid var(--dark-gray);
+  padding: .5rem 1rem;
+}
+
+article h1 a {
+  /*color should be accent-background */
+  color: var(--accent-background);
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  flex-flow:row wrap;
+  border-radius: 4px; 
+}
+
+article {
+  flex: 0 0 30%;
+  max-width: 50ch;
+  min-width: 30ch;
+}
+
+main{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
