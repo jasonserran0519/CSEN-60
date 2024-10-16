@@ -1,0 +1,44 @@
+h1{
+    color: var(--accent-background-text);
+}
+
+time {
+    color: var(--gray);
+}
+
+ /* body.tags main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}  */
+
+article{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+article footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article footer nav {
+    background-color: white;
+}
+
+article footer nav > * {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+body {
+    height: 100vh; 
+    width: 100vw;
+}
+
+main{
+    margin: auto;
+    max-width: min(80%, 80ch);
+}

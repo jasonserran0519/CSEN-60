@@ -1,0 +1,79 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+}
+
+body > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 50%;
+    flex-flow: column;
+    padding: 1rem;
+}
+
+
+aside{
+    background-color: var(--accent-background);
+    text-align: center;
+    max-width: 35rem;
+}
+
+figcaption {
+    block-size: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+article{
+    margin: auto;
+    max-width: min(80%, 80ch);
+} 
+
+/* aside ul li {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+} */
+
+ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;  /* by default, display: flex has flex direction row */
+    list-style: none;
+    gap: 16px;
+}
+
+aside h1{
+    color: var(--accent-background-text);
+    justify-content: center;
+    align-items: center;
+} 
+
+header {
+    margin-left: -29rem;
+}
+
+header h1 {
+    color: var(--accent-background-text);
+}
+
+nav {
+    background-color: white;
+    margin-left: 20rem;
+}
+
+.secondary{ color: var(--gray);}
+.primary{ color: var(--accent-text);}
+
+time {
+    color: var(--gray);
+}
+
+.circular--portrait { position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%; } 
+.circular--portrait img { width: 100%; height: auto;}
+

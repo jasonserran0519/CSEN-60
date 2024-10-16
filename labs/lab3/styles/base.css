@@ -73,3 +73,8 @@ nav ul li{
 a{
   text-decoration: none;
 }
+
+button.img{
+  height: 2rem;
+  width: 2rem;
+}
