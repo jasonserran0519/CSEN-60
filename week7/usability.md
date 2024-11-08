@@ -1,5 +1,5 @@
 # UX/UI Design Lecture
-November 11, 2024
+November 4, 2024
 
 ## Notes
 - Most users give a time of 3 seconds to decide whether to continue on the site or click out
